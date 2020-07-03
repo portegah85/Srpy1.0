@@ -1,0 +1,177 @@
+body h1 h2 h3 p  {
+  font-family: bilo, sans-serif;
+  font-weight: 700; 
+  font-style: bold;
+}
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.main-header {
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  z-index: -1;
+
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  object-fit: cover;
+
+}
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.content {
+  z-index: 2;
+  margin-bottom: 450px;
+}
+
+
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.btn {
+  display: inline-block;
+  background: #0ACC95;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-about h2 {
+  color: #757575;
+}
+
+.section-collaboration {
+  background: #0ACC95;
+}
+
+
+.section-image{
+  background: url(../img/blurb.png) no-repeat center/cover;
+  height: 660px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.section-contact {
+  position: relative;
+  background: url(../img/basketball.png) no-repeat center/cover;
+ 
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.section-prototype{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background: url(../img/schooladmin.png) no-repeat center/cover;
+  height: 870px;
+}
+
+.section-team {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: #757575;
+}
+
+.section-team-banner {
+  color: #757575;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.page-footer{
+  background: #0ACC95;
+
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+
+.page-footer {
+margin-bottom: -20px;
+}
