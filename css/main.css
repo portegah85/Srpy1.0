@@ -14,7 +14,6 @@ body h1 h2 h3 p  {
   overflow: hidden;
 }
 
-
 .main-header {
 
   background-size: cover;
@@ -39,6 +38,13 @@ body h1 h2 h3 p  {
 	padding: 0 20px;
 }
 
+.showcase h1 {
+  font-size: 50px
+}
+
+.showcase p {
+  font-size: 25px
+}
 .video-container {
 	position: absolute;
 	top: 0;
@@ -68,16 +74,14 @@ body h1 h2 h3 p  {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.4);
 	position: absolute;
 }
 
 .content {
   z-index: 2;
-  margin-bottom: 450px;
+  margin-bottom: 400px;
 }
-
-
 
 .scroll-icon {
   position: absolute;
@@ -107,9 +111,15 @@ body h1 h2 h3 p  {
 .section-boxes .row {
   margin-bottom: 0 !important;
 }
-
+.section-about {
+  margin-bottom: 20px ;
+}
 .section-about h2 {
   color: #757575;
+}
+
+.section-about h3 {
+  font-size: 35px;
 }
 
 .section-collaboration {
@@ -133,6 +143,7 @@ body h1 h2 h3 p  {
 .section-contact .card-panel {
   position: relative;
   z-index: 1;
+  color: #757575;
 }
 
 .section-prototype{
@@ -150,6 +161,11 @@ body h1 h2 h3 p  {
 
 .section-team-banner {
   color: #757575;
+}
+
+.section-school {
+  color: #757575; 
+  margin-bottom:50px;
 }
 
 #googlemap {
