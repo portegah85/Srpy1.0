@@ -183,24 +183,20 @@ body h1 h2 h3 p  {
 }
 
 
-@media (min-width: 601px) {
-  .main-header {
-    font-size: 80px;
-  }
-}
-
-@media (max-width: 600px) {
-  .main-header {
-    font-size: 30px;
-  }
-}
-
-/*
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
+    
   }
-} */
+  .main-h2{
+    font-size:  30px !important;
+   
+  }
+  .main-p {
+    font-size:  20px !important;
+  }
+ 
+} 
 
 .page-footer {
 margin-bottom: -20px;
