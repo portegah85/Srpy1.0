@@ -182,16 +182,25 @@ body h1 h2 h3 p  {
 
 }
 
-@media (min-width: 601px) {
+
+@media screen and (min-width: 601px) {
   .main-header {
-    height: 70vh;
+    font-size: 80px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .main-header {
+    font-size: 30px;
+  }
+}
+
+/*
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
   }
-}
+} */
 
 .page-footer {
 margin-bottom: -20px;
