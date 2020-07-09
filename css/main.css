@@ -136,7 +136,7 @@ body h1 h2 h3 p  {
 }
 .section-contact {
   position: relative;
-  background: url(../img/basketball.png) no-repeat center/cover;
+  /*background: url(../img/basketball.png) no-repeat center/cover;*/
  
 }
 
@@ -190,6 +190,7 @@ body h1 h2 h3 p  {
   }
   .main-h2{
     font-size:  30px !important;
+    margin-top: 50px !important;
    
   }
   .main-p {
