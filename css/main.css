@@ -182,6 +182,11 @@ body h1 h2 h3 p  {
 
 }
 
+@media (min-width: 601px) {
+  .main-header {
+    height: 70vh;
+  }
+}
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
