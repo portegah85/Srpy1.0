@@ -75,7 +75,7 @@
       <!-- Showcase -->
       <div class="showcase container">
         <div class="row">
-            <div class="video-container"><!--<img src="https://frntofficesport.com/wp-content/uploads/2020/03/mamdi-diakite-march-madness-draft-stock-scaled-e1584387764689.jpg" >         -->
+            <div class="video-container"><!--<img style="position: top;" src="img/volleyball.jpg" > -->
             </div>
             <div class="content">
                 <h2 class="main-h2">Welcome To Spry!</h2>
@@ -96,7 +96,7 @@
       </h3>
       <div class="row">
         <div class="col s12 ">
-          <img src="img/computer.png" alt="" class="responsive-img">
+          <img src="img/mainheader.png" alt="" class="responsive-img">
         </div>
   
       </div>
@@ -144,7 +144,7 @@
     <div class="container">
       <div class="row">
         <div class="col s12 ">
-          <img src="img/blurb.png" alt="" class="responsive-img">
+          <img src="img/blurb2.0.png" alt="" class="responsive-img">
         </div>
       </div>
     </div>
@@ -190,6 +190,21 @@
         </div>
       </section>-->
 
+      <section id="filler" class="section section-collaboration white-text center scrollspy">
+        <div class="container">
+            <i class="medium material-icons">
+              </i>
+          <h2> </h2>  
+          <div class="row">
+            <div class="col s12">
+                <h5 class="">
+                    
+                </h5>    
+          </div>
+        </div>
+               
+      </section>
+     
   <!-- Section: Contact -->
   <section style="margin-top: 50px;" id="contact" class="section section-contact center scrollspy">
     <div class="container">
@@ -299,6 +314,13 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 500,
+          transition:500,
+          interval: 6000
+        });
     $(document).ready(function () {
       // Init Sidenav
       $('.button-collapse').sideNav();
@@ -323,11 +345,12 @@
 
       Materialize.scrollFire(options);
       $('select').material_select();
-
-    
       
 
     });
+
+ 
+           
   </script>
 </body>
 

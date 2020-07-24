@@ -4,8 +4,8 @@ body h1 h2 h3 p  {
   font-style: bold;
 }
 
-.primary-overlay {
-  background: rgba(0, 0, 0, 0.3);
+.primary-overlay  {
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -15,13 +15,14 @@ body h1 h2 h3 p  {
 }
 
 .main-header {
-
+  background: url(../img/volleyball.jpg) no-repeat center/cover; 
   background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 600px;
   color: #fff;
   position: relative;
+  
 }
 
 .main-header .showcase {
@@ -211,3 +212,8 @@ margin-bottom: -20px;
 	margin-right: auto;
 }
 
+#filler {
+  background: url(../img/soccer.jpg) no-repeat center/cover;
+  height: 450px;
+
+}
