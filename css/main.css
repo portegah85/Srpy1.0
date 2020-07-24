@@ -14,6 +14,14 @@ body h1 h2 h3 p  {
   overflow: hidden;
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+
 .main-header {
   background: url(../img/volleyball.jpg) no-repeat center/cover; 
   background-size: cover;
@@ -197,7 +205,9 @@ body h1 h2 h3 p  {
   .main-p {
     font-size:  20px !important;
   }
- 
+ .ball {
+   width: 150px !important;
+ }
 } 
 
 
