@@ -223,7 +223,7 @@ h4 {
   }
   .main-h2{
     font-size:  40px !important;
-    margin-top: 100px !important;
+    margin-top: 150px !important;
    
   }
   .main-p {
@@ -234,7 +234,7 @@ h4 {
    margin-left: 55px !important;
  }
  a {
-  padding-top: 15px;
+  margin-top: 20px;
  }
 } 
 
