@@ -9,7 +9,7 @@ html {
   background: url(../img/volleyball.jpg) no-repeat center/cover; 
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   min-height: 600px;
   width: 100%;
   color: #fff;
@@ -48,7 +48,7 @@ h4 {
   padding-top: 10px;
 }
 .main-header {
-  background: url(../img/volleyball.jpg) no-repeat center/cover; 
+
   background-size: cover;
   background-position: center;
   height: 100vh;
