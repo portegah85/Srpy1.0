@@ -238,7 +238,14 @@ h4 {
  }
 } 
 
+#message {
+  color: black;
+}
 
+input.select-dropdown {
+  color: black;
+
+}
 .page-footer {
 margin-bottom: -20px;
 }
