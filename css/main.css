@@ -10,7 +10,6 @@ html {
   background-size: cover;
   background-position: center;
   height: 100%;
-
   width: 100%;
   color: #fff;
   position: relative;
@@ -234,8 +233,8 @@ h4 {
    width: 100px !important;
    margin-left: 55px !important;
  }
- .landing {
- 
+ .btn {
+  padding-top: 15px;
  }
 } 
 
