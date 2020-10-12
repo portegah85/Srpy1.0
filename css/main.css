@@ -92,11 +92,11 @@ body {
     min-height: 240px;
   }
   img.computer.responsive-img {
-    margin-left: 120px !important;
+    margin-left: 150px !important;
   }
 
   .ipad-img{
-    height: 500px !important;
+    height: 550px !important;
     background-position: left !important;
 
   }
@@ -138,7 +138,7 @@ width: 200px !important;
     background:white !important;
   }
   .p.flow-text.first-p.left{
-    text-align: center !important;
+    text-align: left !important;
     width: 100%;
   }
   .ease-flex{
@@ -151,10 +151,6 @@ width: 200px !important;
   }
   .first {
     margin-top: -50px !important;
-  }
-  .iphone {
-  
-   
   }
   .NIL-Compliance {
     padding-top: -50px !important;
@@ -178,9 +174,9 @@ nav .brand-logo {
 }
 
 p.first-p {
-
+ 
   width: 100%;
-
+text-align: left;
 }
 
 .payments {
@@ -256,4 +252,9 @@ color: black !important;
   height: 550px;
 
   color: #000050;
+}
+
+.iphone {
+  width: 600px !important;
+
 }
