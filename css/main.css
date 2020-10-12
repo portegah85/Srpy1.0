@@ -109,14 +109,18 @@ body {
     margin: 0px !important; 
   }
 .iphone {
-    width: 10px !important;
+    width: 250px !important;
   }  
   .NIL
 {
-width: 30px;
+width: 200px !important;
 }
     img.responsive-img {
       width: 100%;
+    }
+
+    .transparency {
+      width: 200px;
     }
   
   .ipad-img {
