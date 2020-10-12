@@ -91,15 +91,13 @@ body {
   .section-podcast {
     min-height: 240px;
   }
-  img.computer.responsive-img {
-    margin-left: 150px !important;
-  }
 
   .ipad-img{
     height: 550px !important;
     background-position: left !important;
-
   }
+
+
   .hero-1 {
    margin-top: 0px !important;
   
@@ -107,6 +105,7 @@ body {
   img.computer.responsive-img{
     width: 100% !important;
     margin: 0px !important; 
+    margin-left: 40px !important;
   }
 .iphone {
   width: 100% !important;
@@ -114,6 +113,7 @@ body {
  
   }  
   .payments {
+    margin-top: -50px !important;
   
   }
   .NIL
@@ -131,7 +131,7 @@ width: 200px !important;
     }
 
     .ipad-img {
-      margin-top: 30px !important;
+
       margin-bottom: -120px !important;
     }
   
