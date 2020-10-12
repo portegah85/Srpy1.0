@@ -109,11 +109,12 @@ body {
     margin: 0px !important; 
   }
 .iphone {
-    width: 370px !important;
+  width: 100% !important;
+  margin: 0px !important; 
  
   }  
   .payments {
-    margin-top: -75px !important;
+  
   }
   .NIL
 {
@@ -175,7 +176,7 @@ nav .brand-logo {
 
 p.first-p {
  
-  width: 100%;
+width: 100%;
 text-align: left;
 }
 
