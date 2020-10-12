@@ -137,6 +137,10 @@ width: 200px !important;
     text-align: center !important;
     width: 100%;
   }
+  .ease-flex{
+    margin: 0;
+    margin-bottom: 10px;
+  }
 }
 
 nav ul a {
@@ -194,7 +198,7 @@ img.ease {
 }
 
 .iphone {
-  margin-top: -65px !important;
+  margin-top: -100px !important;
  
 }
 .ipad-img {
