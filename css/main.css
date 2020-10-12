@@ -92,11 +92,11 @@ body {
     min-height: 240px;
   }
   img.computer.responsive-img {
-    margin-left: 100px !important;
+    margin-left: 120px !important;
   }
 
   .ipad-img{
-    height: 800px !important;
+    height: 400px !important;
     background-position: left !important;
 
   }
