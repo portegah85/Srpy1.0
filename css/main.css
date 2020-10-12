@@ -109,11 +109,11 @@ body {
     margin: 0px !important; 
   }
 .iphone {
-    width: 300px !important;
+    width: 400px !important;
  
   }  
   .payments {
-    margin-top: -75px;
+    margin-top: -75px !important;
   }
   .NIL
 {
@@ -146,6 +146,13 @@ width: 200px !important;
   }
   img {
     margin: auto !important;
+  }
+  .first {
+    margin-top: -50px !important;
+  }
+  .iphone {
+    margin-top: -75px !important;
+   
   }
 }
 
@@ -203,10 +210,7 @@ img.ease {
   height: 600px;
 }
 
-.iphone {
-  margin-top: -100px !important;
- 
-}
+
 .ipad-img {
   background: url(../img/Assets/1x/Desktop/IPad\ image-D-1x.png);
   background-position: right;
