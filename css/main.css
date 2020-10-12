@@ -96,8 +96,19 @@ body {
     height: 550px !important;
     background-position: left !important;
   }
+ .con-footer {
+  margin-left: 85px;
+ }
+.llc{
+  margin-right: 135px !important;
+}
 
+.logo {
+  margin-bottom: 30px !important;
+  padding-top: -20px !important;
+  margin-left: 30px !important;
 
+}
   .hero-1 {
    margin-top: 0px !important;
   
@@ -154,7 +165,7 @@ width: 200px !important;
     margin-top: -50px !important;
   }
   .NIL-Compliance {
-    padding-top: -50px !important;
+    margin-top: -55px !important;
   }
 }
 
@@ -253,4 +264,33 @@ color: black !important;
   height: 550px;
 
   color: #000050;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+  img.left.responsive-img.iphone {
+    padding-right: 250px !important;
+  }
+  img.computer{
+    width: 500px;
+    margin-top: 50px !important;
+  }
+.ease-flex {
+  margin-top: -15px;
+}
+
+.ease-img {
+  margin-top: 100px;
+}
+  
+}
+
+.social {
+  margin-left: 150px;
+}
+
+.llc {
+  margin-right: 80px;
 }
