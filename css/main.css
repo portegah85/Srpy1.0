@@ -1,22 +1,9 @@
-body h1 h2 h3 p  {
-  font-family: bilo, sans-serif;
-  font-weight: 700; 
-  font-style: bold;
-  
+body {
+  font-family: 'Rubik';
 }
 
-html {
-  background: url(../img/volleyball.jpg) no-repeat center/cover; 
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  position: relative;
-}
-
-.primary-overlay  {
-  background: rgba(0, 0, 0, 0.6);
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -25,322 +12,217 @@ html {
   overflow: hidden;
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden
-}
-
-h2{
-  padding-top: 10px;
-  font-size: 65px;
-}
-p {
-  padding-top: 25x;
-}
-
-h4 {
-  color: #0ACC95;
-  padding-top: 10px;
-}
-.main-header {
-
+.main-showcase {
+  background: url(../img/Assets/1x/Desktop/Hero-Photo-D-1x.png);
   background-size: cover;
   background-position: center;
-  height: 100vh;
   min-height: 600px;
-  width: 100%;
   color: #fff;
-  position: relative;
-  
+}
+
+.show {
+  margin-top: 170px;
 }
 
 .main-header .showcase {
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
-.showcase {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #fff;
-	padding: 0 20px;
-}
-
-.showcase h1 {
-  font-size: 50px
-}
-
-.showcase p {
-  font-size: 25px
-}
-.video-container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-  z-index: -1;
-
-}
-
-.video-container video {
-	min-width: 100%;
-	min-height: 100%;
-  position: absolute;
-	top: 50%;
-	left: 50%;
-  object-fit: cover;
-
-}
-
-.video-container:after {
-	content: '';
-	z-index: 1;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.4);
-	position: absolute;
-}
-
-.content {
-  z-index: 2;
-  margin-bottom: 400px;
-}
-
-.scroll-icon {
-  position: absolute;
-  bottom: 5%;
-  left: 47%;
-  opacity: 0.5;
-}
-
-.btn {
-  display: inline-block;
-  background: #0ACC95;
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border-radius: 30px;
 }
 
-.box {
-  padding: 40px 10px !important;
+.main-header-inner .showcase {
+  padding-top: 50px;
 }
 
-.box h4 {
-  padding-bottom: 30px;
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
 }
 
-.section-boxes .row {
-  margin-bottom: 0 !important;
-}
-.section-about {
-  margin-bottom: 20px ;
-}
-.section-about h2 {
-  color: #757575;
-}
-
-.section-about h3 {
-  font-size: 35px;
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
 }
 
-.section-collaboration {
-  background: #0ACC95;
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
 }
 
-
-.section-image{
-  background: url(../img/blurb.png) no-repeat center/cover;
-  height: 660px;
+.section-podcast a {
   margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+  img.computer.responsive-img {
+    margin-left: 100px !important;
+  }
+
+  .ipad-img{
+    height: 800px !important;
+    background-position: left !important;
+
+  }
+  .hero-1 {
+   margin-top: 0px !important;
+  
+  }
+  img.computer.responsive-img{
+    width: 100% !important;
+    margin: 0px !important; 
+  }
+.iphone {
+    width: 10px !important;
+  }  
+
+    img.responsive-img {
+      width: 100%;
+    }
+  
+  .ipad-img {
+    background:white !important;
+  }
+  .p.flow-text.first-p.left{
+    text-align: center !important;
+    width: 100%;
+  }
+}
+
+nav ul a {
+  color: #17A1FB;
+}
+
+nav .brand-logo {
+  color: #17A1FB;
+}
+
+.first {
+  padding-top: 70px;
+}
+.ease-flex {
+  margin-top: 75px;
+  margin-inline-start: 50px;
+}
+
+p.first-p {
+
+  width: 100%;
+
+}
+
+.payments {
+  margin-top: 75px;
+}
+
+
+
+.NIL-Compliance {
+  padding-top: 100px;
+}
+img.responsive-img {
+width: 100%;
+
+}
+
+img.responsive-img.ipad {
+width: 1500px !important;
+height: 700px;
+
+}
+
+.ease {
+  height: 600px;
+}
+
+img.ease {
+  width: 100%;
+}
+
+.section-iphone {
+  height: 600px;
+}
+
+.iphone {
+  margin-top: -65px !important;
+ 
+}
+.ipad-img {
+  background: url(../img/Assets/1x/Desktop/IPad\ image-D-1x.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+img.computer {
+width: 925px;
 
 }
 .section-contact {
-  position: relative;
-  /*background: url(../img/basketball.png) no-repeat center/cover;*/
- 
+  background-color: #000050 !important;
+  height: 450px;
 }
 
-.section-contact .card-panel {
-  position: relative;
-  z-index: 1;
-  color: #757575;
+.btn {
+  background-color: #17A1FB !important;
 }
 
-.section-prototype{
-  margin-top: 150px;
-  margin-bottom: 150px;
-  background: url(../img/schooladmin.png) no-repeat center/cover;
-  height: 870px;
+.contact {
+  margin-top: 70px;
 }
 
-.section-team {
-  margin-top: 0px;
-  margin-bottom: 50px;
-  color: #757575;
+a .fab {
+  color: #000050 !important;
 }
 
-.section-team-banner {
-  color: #757575;
+nav ul a {
+  color: #003292;
 }
 
-.section-school {
-  color: #757575; 
-  margin-bottom:50px;
-}
-
-#googlemap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
-.page-footer{
-  background: #0ACC95;
-
-}
-
-
-@media (max-width: 600px) {
-  .main-header {
-    height: 50vh;
-    
-  }
-  .main-h2{
-    font-size:  40px !important;
-    margin-top: 150px !important;
-   
-  }
-  .main-p {
-    font-size:  20px !important;
-  }
- .ball {
-   width: 100px !important;
-   margin-left: 55px !important;
- }
- a {
-  margin-top: 20px;
- }
-} 
-
-#message {
-  color: black;
+.footer {
+  display: inline;
 }
 
 input.select-dropdown {
-  color: black;
-
-}
-.page-footer {
-margin-bottom: -20px;
-}
-@import url("https://cdn.jsdelivr.net/npm/bullframe.css/dist/css/bullframe.min.css");
-.form {
-	max-width: 600px;
-	max-width: 60rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.section-filler {
-background: url(../img/socceroverlay.png) no-repeat center/cover;
-height: 700px;
-}
-
-.image-merge {
-  display: flex;
-  flex-direction: row;
-
-
-}
-
-.image-merge img {
-  width: 100%;
- 
-}
-
-img.responsive-img{
-  padding-top: 70px;
-
+color: black !important;
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  left: 0;
-  right: 0;
-  background: transparent;
-  padding: 0;
-  margin: auto;
-  overflow-y: auto;
-  border-radius: 2px;
-  will-change: top, opacity; }
-  @media only screen and (max-width: 992px) {
-    .modal {
-      width: 80%; } }
-  .modal h1, .modal h2, .modal h3, .modal h4 {
-    margin-top: 0; }
-  .modal .modal-content {
-    padding: 15px; }
-  .modal .modal-close {
-    cursor: pointer; }
-  .modal .modal-footer {
-    border-radius: 0 0 2px 2px;
+  height: 550px;
 
-    text-align: right; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
-      margin: 6px 0; }
-
-.modal-overlay {
-  position: fixed;
-  z-index: 0;
-  top: -25%;
-  left: 0;
-  bottom: 0;
-  right: 0;
- 
-  background: #000;
-  display: none;
-  will-change: opacity;
-  opacity: 0.3 !important; }
-
-  div.modal-overlay {
-    opacity: 0.3 !important;
-    z-index: 0 !important;
-    
-  }
-
-.modal.modal-fixed-footer {
-  padding: 0;
+  color: #000050;
 }
-  .modal.modal-fixed-footer .modal-content {
-
- 
-    overflow-y: auto; }
-  .modal.modal-fixed-footer .modal-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 0; }
-
-.modal.bottom-sheet {
-  top: auto;
-  bottom: -100%;
-  margin: 0;
-  border-radius: 0;
-  will-change: bottom, opacity; }

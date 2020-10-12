@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="21px" viewBox="0 0 31 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Youtube logo</title>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Spry-website-D" transform="translate(-1310.000000, -4392.000000)" fill="#272559">
+            <g id="Footer" transform="translate(0.000000, 4339.000000)">
+                <g id="Social-icons" transform="translate(1203.000000, 48.000000)">
+                    <path d="M119.164295,19.2518121 L127.455732,14.9608054 L119.164295,10.6697987 L119.164295,19.2518121 Z M137.668456,21.6228188 C137.661369,24.0395705 135.704,25.9969396 133.287248,26.0033826 L111.381208,26.0033826 C108.964456,25.9969396 107.007087,24.0395705 107,21.6228188 L107,9.38120805 C107.007087,6.96445638 108.964456,5.00708725 111.381208,5 L133.287248,5 C135.704,5.00708725 137.661369,6.96445638 137.668456,9.38120805 L137.668456,21.6228188 Z" id="Youtube-logo"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
