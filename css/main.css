@@ -155,6 +155,9 @@ width: 200px !important;
     margin-top: -75px !important;
    
   }
+  .NIL-Compliance {
+    padding-top: -50px !important;
+  }
 }
 
 nav ul a {
@@ -166,10 +169,10 @@ nav .brand-logo {
 }
 
 .first {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .ease-flex {
-  margin-top: 75px;
+  margin-top: 50px;
   margin-inline-start: 50px;
 }
 
@@ -180,13 +183,11 @@ p.first-p {
 }
 
 .payments {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
-
-
 .NIL-Compliance {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 img.responsive-img {
 width: 100%;
@@ -231,7 +232,7 @@ width: 925px;
 }
 
 .contact {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 a .fab {
