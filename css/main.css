@@ -120,7 +120,12 @@ width: 200px !important;
     }
 
     .transparency {
-      width: 200px;
+      width: 300px;
+      align-items: center;
+    }
+
+    .trans-icon {
+      margin-top: 20px !important;
     }
   
   .ipad-img {
