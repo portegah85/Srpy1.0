@@ -109,7 +109,7 @@ body {
     margin: 0px !important; 
   }
 .iphone {
-    width: 400px !important;
+    width: 370px !important;
  
   }  
   .payments {
@@ -132,6 +132,7 @@ width: 200px !important;
     .ipad-img {
       margin-top: 30px !important;
       margin-bottom: -120px !important;
+      height: 300px !important;
     }
   
   .ipad-img {
@@ -146,7 +147,8 @@ width: 200px !important;
     margin-bottom: 10px !important;
   }
   img {
-    margin: auto !important;
+    width: 100% !important;
+    margin: 0px !important; 
   }
   .first {
     margin-top: -50px !important;
