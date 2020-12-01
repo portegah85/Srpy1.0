@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="shortcut icon" type="image/png" style="width: 50px;"  href="img/Assets/Spry Logo/spry-favicon-16x16.png">
+
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spry</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"> <img style="width: 100px; padding-top: 10px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img"></a>
+          <a  href="#" data-activates="mobile-nav" class="button-collapse blue-text">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="side-nav" id="mobile-nav">       
+          <div class="center" style="padding-top: 30px;" >
+            <img  style="width: 100px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img">
+            </div>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="#home">
+                <i class="fa fa-home blue-text text-darken-5"></i> Home</a>
+            </li>
+            <li>
+              <a href="#contact">
+                <i class="fa fa-users blue-text text-darken-5"></i> Contact</a>
+            </li>
+            <li>
+              <div class="divider"></div>
+            </li>
+        
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Section: About -->
+  <section class="section section-about grey lighten-4 section-iphone">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 responsive-img">
+          <img style="width: 600px;" src="img/Assets/1x/Mobile/Payments image-M-1x.png" alt="" class="left responsive-img iphone">
+           
+        </div>
+        <div class="col s12 m6 payments">            
+          <div>
+            <h3 class="left">Sales Form</h3>
+           
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s10">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">First Name</label>
+                  </div> 
+                  <div class="input-field col s10">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field col s10">
+                    <input id="school" type="text" class="validate">
+                    <label for="school">School</label>
+                  </div>
+                  <div class="input-field col s10">
+                    <a class="waves-effect waves-light btn">Submit</a>
+                  </div>                 
+                </div>     
+              </form>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer grey lighten-4">
+    <div class="container con-footer">
+      <div style="padding-top: 35px;"class="row">
+        <div class="col l6 s12">
+            <a href="" class="brand-logo"> <img style="width: 100px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class="logo responsive-img"></a>
+        </div>
+        <div class="footer">      
+        </div>
+          
+        <div style="width: 360px;"class="right social">  
+        <a><img style="width: 50px; margin-left: 20px;" src="img/Assets/Icons/PNGs/Intagram logo.png"></a>
+       <a href="https://twitter.com/SpryPayments"> <img style="width: 50px; margin-left: 20px;"src="img/Assets/Icons/PNGs/Twitter logo.png"></a>
+        <img style="width: 50px; margin-left: 20px;"src="img/Assets/Icons/PNGs/Youtube logo.png">
+        </div>
+          
+           </div>  
+           <div class="container indigo-text right llc ">
+              <a class="black-text right">  &copy; 2020 Spry Payments System, Inc. </a>
+            </div>  
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-copyright grey lighten-4">
+    </div>
+  </footer>
+
+
+
+  <div id="login-modal" class="modal">
+    <div class="center">
+      <div class="row">
+        <div class="col s12 m6 offset-m3">
+          <div class="card-panel z-depth-5">
+            <h4>Contact</h4>
+            <form id="SpryContactForm" action="POST" data-netlify="true">
+            <div class="input-field">
+              <input type="text" name="name"id="name" placeholder="Name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" name="email" id="email" placeholder="Email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="phone" name="phone" placeholder="Phone Number">
+              <label for="phone">Phone</label>
+            </div>
+  
+            <div class="input-field">
+              <textarea class="materialize-textarea" id="message" name="message "placeholder="Message"></textarea>
+              <label for="message">Message</label>
+            </div>
+              <div class='field'>
+                <!--<div data-netlify-recaptcha="true"></div>-->
+              </div>
+            <input style="margin-top: 10px;"type="submit" value="Submit" class="btn">
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+ 
+    $(document).ready(function () {
+      // Init Sidenav
+      $('.button-collapse').sideNav();
+
+        // Init Modal
+        $('.modal').modal();
+
+      // Init Scrollspy
+      $('.scrollspy').scrollSpy();
+
+      // ScrollFire
+      const options = [
+        {
+          selector: '.main-text', offset: 0, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.navbar-fixed', offset: 1500, callback: function () {
+            $('nav').removeClass('transparent');
+            $('nav').addClass('blue-grey darken-3');
+          }
+        }
+      ];
+
+      Materialize.scrollFire(options);
+      $('select').material_select();
+      
+
+    });
+
+ 
+           
+  </script>
+</body>
+
+</html>
