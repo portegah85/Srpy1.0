@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <!--Import Google Icon Font-->
-  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
-  <link rel="shortcut icon" type="image/png" style="width: 50px;"  href="img/Assets/Spry Logo/spry-favicon-16x16.png">
-
-
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spry</title>
-</head>
-
-<body>
-  <!-- Header -->
-  <header class="main-header">
-    <nav class="transparent">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"> <img style="width: 100px; padding-top: 10px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img"></a>
-          <a  href="#" data-activates="mobile-nav" class="button-collapse blue-text">
-            <i class="fa fa-bars"></i>
-          </a>
-          <ul class="side-nav" id="mobile-nav">       
-          <div class="center" style="padding-top: 30px;" >
-            <img  style="width: 100px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img">
-            </div>
-            <li>
-              <div class="divider"></div>
-            </li>
-            <li>
-              <a href="#home">
-                <i class="fa fa-home blue-text text-darken-5"></i> Home</a>
-            </li>
-            <li>
-              <a href="#contact">
-                <i class="fa fa-users blue-text text-darken-5"></i> Contact</a>
-            </li>
-            <li>
-              <div class="divider"></div>
-            </li>
-        
-          </ul>
-        
+  <head>
+    <!--Import Google Icon Font-->
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" style="width: 50px;"  href="img/Assets/Spry Logo/spry-favicon-16x16.png">
+  
+  
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spry</title>
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo"> <img style="width: 100px; padding-top: 10px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img"></a>
+            <a  href="#" data-activates="mobile-nav" class="button-collapse blue-text">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+             <li>
+                <a href="https://www.sprypayments.com/" class="btn"> <i class="fa fa-home"></i>   </a>
+              </li>
+           
+              
+            </ul>
+            <ul class="side-nav" id="mobile-nav">       
+            <div class="center" style="padding-top: 30px;" >
+              <img  style="width: 100px;" src="img/Assets/Spry Logo/Spry Logo.png" alt="" class=" responsive-img">
+              </div>
+              <li>
+                <div class="divider"></div>
+              </li>
+              <li>
+                <a href="#home">
+                  <i class="fa fa-home blue-text text-darken-5"></i> Home</a>
+              </li>
+              <li>
+                <a href="#contact">
+                  <i class="fa fa-users blue-text text-darken-5"></i> Contact</a>
+              </li>
+              <li>
+                <div class="divider"></div>
+              </li>
+          
+            </ul>
+          
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Section: About -->
+      </nav>
+    </header>
+     
   <section class="section section-about grey lighten-4 section-iphone">
     <div class="container">
       <div class="row">
@@ -62,25 +69,25 @@
         </div>
         <div class="col s12 m6 payments">            
           <div>
-            <h3 class="left">Sales Form</h3>
+            <h3 class="left">Sign Up</h3>
            
             <div class="row">
-              <form class="col s12">
+              <form id="SprySignUpForm" action="POST" data-netlify="true" class="col s12">
                 <div class="row">
                   <div class="input-field col s10">
-                    <input id="name" type="text" class="validate">
+                    <input id="name" name="name" type="text" class="validate">
                     <label for="name">First Name</label>
                   </div> 
                   <div class="input-field col s10">
-                    <input id="email" type="email" class="validate">
+                    <input id="email" name="email" type="email" class="validate">
                     <label for="email">Email</label>
                   </div>
                   <div class="input-field col s10">
-                    <input id="school" type="text" class="validate">
+                    <input id="school" name="school" type="text" class="validate">
                     <label for="school">School</label>
                   </div>
                   <div class="input-field col s10">
-                    <a class="waves-effect waves-light btn">Submit</a>
+                    <a class="waves-effect waves-light btn">Sign Up</a>
                   </div>                 
                 </div>     
               </form>
@@ -93,10 +100,9 @@
       </div>
     </div>
   </section>
-
-
-
-
+  <section class="section section-empty" >
+    
+  </section>
   <!-- Footer -->
   <footer class="page-footer grey lighten-4">
     <div class="container con-footer">
@@ -124,9 +130,6 @@
     <div class="footer-copyright grey lighten-4">
     </div>
   </footer>
-
-
-
   <div id="login-modal" class="modal">
     <div class="center">
       <div class="row">
