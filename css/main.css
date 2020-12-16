@@ -110,9 +110,21 @@ justify-content: space-evenly;
   margin-bottom: 30px !important;
   padding-top: -23px !important;
   margin-left: 120px !important;
-
-
 }
+
+.icons {
+  width: 50px;
+  margin-left: 45%;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+
+
+
+
   .hero-1 {
    margin-top: 0px !important;
   
