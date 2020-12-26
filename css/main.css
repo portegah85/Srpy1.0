@@ -101,6 +101,12 @@ display: flex;
 justify-content: space-evenly;
 
  }
+ p.quotation {
+   font-size: 15px;
+ }
+ blockquote{
+   font-size: 18px !important;
+ }
 .llc{
   display: flex;
   justify-content: center;
@@ -120,9 +126,6 @@ justify-content: space-evenly;
 .padding-top-40 {
   padding-top: 40px;
 }
-
-
-
 
 
   .hero-1 {
@@ -180,9 +183,18 @@ width: 200px !important;
   .first {
     margin-top: -50px !important;
   }
-  .NIL-Compliance {
-  
+  #SignUpForm {
+    margin-left: 20px !important;
   }
+
+div.col.s10.signupform{
+margin-top: 10px;
+width: 100%
+
+}
+.brand-logo {
+  margin-right: 20px;
+}
 }
 
 nav ul a {
@@ -354,6 +366,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 .ease-img {
   margin-top: 100px;
+}
+.singupform {
+  margin-top: 55px !important;
 }
   
 }
