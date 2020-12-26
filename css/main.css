@@ -192,6 +192,9 @@ margin-top: -60px !important;
 width: 100%
 
 }
+ .form-signup {
+   padding-bottom: -50px !important;
+  }
 .brand-logo {
   margin-right: 20px;
 }
