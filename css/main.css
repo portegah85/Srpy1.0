@@ -188,7 +188,7 @@ width: 200px !important;
   }
 
 div.col.s10.signupform{
-margin-top: 10px;
+margin-top: -40px !important;
 width: 100%
 
 }
